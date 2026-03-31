@@ -1,0 +1,16 @@
+.card{
+    border: 5px solid firebrick;
+    color: white;
+    background: linear-gradient(135deg,rgb(172, 32, 32),rgb(202, 59, 59));
+    border-radius: 10px;
+    display: grid;
+    column-gap: 5px;
+    padding: 5px;
+    margin-block: 10px;
+    margin-inline: 300px;
+    
+}
+.card:hover{
+    background: linear-gradient(135deg,rgb(201, 10, 10),rgb(90, 0, 0));
+    cursor: pointer;
+}

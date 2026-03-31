@@ -1,0 +1,15 @@
+body {
+   background: linear-gradient(135deg,rgb(222, 162, 150),rgb(178, 44, 44));
+}
+body:hover{
+  background: linear-gradient(135deg,rgb(231, 94, 94),rgb(96, 5, 5));
+}
+.buttoni{
+  border: 5px solid firebrick;
+    color: white;
+    background: linear-gradient(135deg,rgb(172, 32, 32),rgb(202, 59, 59));
+    border-radius: 10px;
+    column-gap: 5px;
+    padding: 5px;
+    margin-block: 10px;
+}

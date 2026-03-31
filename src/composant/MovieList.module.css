@@ -1,0 +1,21 @@
+.dohi{
+     border: 5px solid firebrick;
+    color: white;
+    background: linear-gradient(135deg,rgb(172, 32, 32),rgb(202, 59, 59));
+    border-radius: 10px;
+    display: grid;
+    column-gap: 5px;
+    padding: 5px;
+    margin-block: 10px;
+}
+.dohi:hover{
+     border: 5px solid firebrick;
+    color: white;
+    background: linear-gradient(135deg,rgb(172, 32, 32),rgb(202, 59, 59));
+    border-radius: 10px;
+    display: grid;
+    column-gap: 5px;
+    padding: 5px;
+    margin-block: 10px;
+    margin-inline: 150px;
+}
