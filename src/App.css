@@ -1,8 +1,5 @@
 body {
-   background: linear-gradient(135deg,rgb(222, 162, 150),rgb(178, 44, 44));
-}
-body:hover{
-  background: linear-gradient(135deg,rgb(231, 94, 94),rgb(96, 5, 5));
+   background: 180px red rebeccapurple;
 }
 .buttoni{
   border: 5px solid firebrick;

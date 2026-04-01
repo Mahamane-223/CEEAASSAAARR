@@ -1,5 +1,5 @@
 import styles from'./MovieList.module.css'
-function MoviesList({ filmname, datedesortie, genre, syno }) {
+function Movieslist({ filmname, datedesortie, genre, syno }) {
   return (
     <div className={styles.dohi}>
       <h2>Nom : {filmname}</h2>
@@ -10,4 +10,4 @@ function MoviesList({ filmname, datedesortie, genre, syno }) {
   );
 }
 
-export default MoviesList;
+export default Movieslist;
