@@ -1,12 +1,127 @@
-body {
-   background: 180px red rebeccapurple;
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Share+Tech+Mono&family=Exo+2:wght@300;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.buttoni{
-  border: 5px solid firebrick;
-    color: white;
-    background: linear-gradient(135deg,rgb(172, 32, 32),rgb(202, 59, 59));
-    border-radius: 10px;
-    column-gap: 5px;
-    padding: 5px;
-    margin-block: 10px;
+
+body {
+  background-color: #0a0a0f;
+  color: #c8d6e5;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* ── Titres ── */
+h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #00e5ff;
+  border-bottom: 1px solid #00e5ff33;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #00e5ff;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #b400ff;
+  margin-bottom: 0.4rem;
+}
+
+p {
+  font-size: 0.95rem;
+  color: #4a5a6e;
+  line-height: 1.7;
+}
+
+/* ── Boutons ── */
+button {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  margin: 0.5rem 0.25rem;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #00e5ff;
+  color: #0a0a0f;
+  border: none;
+  transition: background 0.15s, transform 0.1s;
+}
+
+button:hover {
+  background: #33ecff;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* ── Main ── */
+main {
+  padding: 2rem 0;
+}
+
+/* ── Liens ── */
+a {
+  color: #00e5ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #b400ff;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00e5ff44;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00e5ff;
+}
+
+/* ── Séparateur ── */
+hr {
+  border: none;
+  border-top: 1px solid #1a1a2e;
+  margin: 2rem 0;
 }

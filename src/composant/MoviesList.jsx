@@ -1,11 +1,12 @@
-import styles from'./MovieList.module.css'
-function Movieslist({ filmname, datedesortie, genre, syno }) {
+import styles from './MovieList.module.css'
+
+function Movieslist({ name, year, genre, synopsis }) {
   return (
     <div className={styles.dohi}>
-      <h2>Nom : {filmname}</h2>
-      <h3>Date de sortie : {datedesortie}</h3>
-      <h3>Genre : {genre}</h3>
-      <p>Synopsis : {syno}</p>
+      <h2>{name}</h2>
+      <h3> Apparition : {year}</h3>
+      <h3>Catégorie : {genre}</h3>
+      <p>Informations : {synopsis}</p>
     </div>
   );
 }

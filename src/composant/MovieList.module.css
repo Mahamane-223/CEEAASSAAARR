@@ -1,21 +1,40 @@
-.dohi{
-     border: 5px solid firebrick;
-    color: white;
-    background: linear-gradient(135deg,rgb(172, 32, 32),rgb(202, 59, 59));
-    border-radius: 10px;
-    display: grid;
-    column-gap: 5px;
-    padding: 5px;
-    margin-block: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Share+Tech+Mono&family=Exo+2:wght@300;400;600&display=swap');
+
+.card {
+  background: #0d0d1a;
+  border: 1px solid #1a1a2e;
+  border-left: 3px solid #00e5ff;
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  transition: background 0.2s, border-left-color 0.2s;
 }
-.dohi:hover{
-    border: 5px solid firebrick;
-    color: white;
-    background: linear-gradient(135deg,rgb(201, 10, 10),rgb(90, 0, 0));
-    border-radius: 10px;
-    display: grid;
-    column-gap: 5px;
-    padding: 5px;
-    margin-block: 10px;
-    margin-inline: 150px;
+
+.card:hover {
+  background: #111122;
+  border-left-color: #b400ff;
+}
+
+.card p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 0.9rem;
+  color: #c8d6e5;
+  margin: 0 0 0.4rem;
+}
+
+.card p:first-child {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #00e5ff;
+  margin-bottom: 0.6rem;
+}
+
+.card p span {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.8rem;
+  color: #b400ff;
+  letter-spacing: 1px;
 }
